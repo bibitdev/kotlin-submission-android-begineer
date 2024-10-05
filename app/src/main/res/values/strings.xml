@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Players Manchester City</string>
+    <string name="players_name">Player Name</string>
+    <string name="description">Description</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="about">About</string>
+    <string name="detail">Detail</string>
+    <string name="text_description">Description</string>
+    <string name="share">Share</string>
+
+    <string-array name="data_name">
+        <item>Ederson</item>
+        <item>Rúben Dias</item>
+        <item>Jeremy Doku</item>
+        <item>Kevin De Bruyne</item>
+        <item>Phil Foden</item>
+        <item>Jack Grealish</item>
+        <item>Erling Haaland</item>
+        <item>Rodri</item>
+        <item>Bernardo Silva</item>
+        <item>Kyle Walker</item>
+        <item>Kun Aguero</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Ederson adalah kiper yang dikenal dengan kemampuan distribusi bolanya yang sangat baik. Selain menjadi penjaga gawang yang andal, ia juga sering terlibat dalam permainan build-up timnya.</item>
+        <item>Rúben Dias adalah bek tangguh yang dikenal dengan kemampuan membaca permainan dan memimpin lini belakang. Dia adalah pilar pertahanan Manchester City dan membawa stabilitas serta kepemimpinan di lapangan.</item>
+        <item>Jeremy Doku adalah pemain sayap eksplosif yang mengandalkan kecepatan dan dribelnya untuk menembus pertahanan lawan. Dia menawarkan serangan cepat dan berbahaya dari sisi sayap.</item>
+        <item>Kevin De Bruyne adalah playmaker brilian yang terkenal dengan visi, umpan-umpan kreatif, dan kemampuan mencetak gol. Sebagai jenderal lini tengah, ia menciptakan peluang melalui umpan kunci dan tendangan jarak jauh yang mematikan.</item>
+        <item>Phil Foden adalah gelandang muda berbakat yang memiliki kemampuan serba bisa. Dia sering menjadi ancaman dari lini tengah dengan teknik, visi, dan kecepatan yang luar biasa.</item>
+        <item>Jack Grealish adalah pemain sayap kreatif yang ahli dalam menggiring bola dan menciptakan peluang. Dia sering menantang bek lawan dengan teknik dribel yang sangat baik.</item>
+        <item>Erling Haaland adalah striker tajam dengan insting mencetak gol yang luar biasa. Dia dikenal karena kekuatannya, kecepatan, dan ketepatan dalam penyelesaian akhir.</item>
+        <item>Rodri adalah gelandang bertahan yang memiliki kemampuan penguasaan bola yang sangat baik. Dia juga bertindak sebagai penyeimbang tim, sering memutus serangan lawan dan memulai serangan balik.</item>
+        <item>Bernardo Silva adalah gelandang serang yang serba bisa, dikenal dengan dribel halus, visi, dan kemampuan mengontrol permainan. Dia sering membantu tim menciptakan peluang di berbagai posisi.</item>
+        <item>Kyle Walker adalah bek kanan yang memiliki kecepatan dan kekuatan fisik luar biasa. Dia sering berperan dalam membantu serangan dari sayap kanan sambil tetap menjaga soliditas pertahanan.</item>
+        <item>Sergio "Kun" Agüero adalah mantan pemain sepak bola asal Argentina yang dikenal sebagai salah satu penyerang terbaik dunia. Lahir pada 2 Juni 1988, ia mencetak sejarah di Manchester City dengan menjadi pencetak gol terbanyak sepanjang masa klub dan meraih lima gelar Premier League.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/ederson</item>
+        <item>@drawable/dias</item>
+        <item>@drawable/doku</item>
+        <item>@drawable/debruyne</item>
+        <item>@drawable/foden</item>
+        <item>@drawable/grealish</item>
+        <item>@drawable/haland</item>
+        <item>@drawable/rodri</item>
+        <item>@drawable/silva</item>
+        <item>@drawable/walker</item>
+        <item>@drawable/aguero</item>
+    </integer-array>
+
+
+</resources>
