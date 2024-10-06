@@ -41,9 +41,12 @@ class MainActivity : AppCompatActivity() {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDescription = resources.getStringArray(R.array.data_description)
         val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
+        val dataNationality = resources.getStringArray(R.array.data_nationality)
+        val dataDateOfBirth = resources.getStringArray(R.array.data_dates_of_birth)
+        val dataPosition = resources.getStringArray(R.array.data_possition)
         val listPlayer = ArrayList<Player>()
         for (i in dataName.indices) {
-            val player = Player(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1))
+            val player = Player(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1), dataNationality[i], dataDateOfBirth[i], dataPosition[i])
             listPlayer.add(player)
         }
         return listPlayer

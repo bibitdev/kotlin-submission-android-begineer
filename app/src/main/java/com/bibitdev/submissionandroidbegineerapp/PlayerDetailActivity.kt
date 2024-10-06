@@ -20,15 +20,25 @@ class PlayerDetailActivity : AppCompatActivity() {
         val playerName = intent.getStringExtra("EXTRA_NAME")
         val playerDescription = intent.getStringExtra("EXTRA_DESCRIPTION")
         val playerPhoto = intent.getIntExtra("EXTRA_PHOTO", 0)
+        val playerNationality = intent.getStringExtra("EXTRA_NATIONALITY")
+        val playerDateOfBirth = intent.getStringExtra("EXTRA_DATEOFBIRTH")
+        val playerPosition = intent.getStringExtra("EXTRA_POSITION")
 
         // Set data ke view
         val tvName: TextView = findViewById(R.id.tv_item_name)
         val tvDescription: TextView = findViewById(R.id.tv_item_description)
         val imgPhoto: ImageView = findViewById(R.id.img_item_photo)
+        val tvNationality : TextView = findViewById(R.id.data_nationality)
+        val tvPosition : TextView = findViewById(R.id.data_position)
+        val tvDateOfBirth : TextView = findViewById(R.id.data_dateOfBirth)
 
         tvName.text = playerName
         tvDescription.text = playerDescription
         imgPhoto.setImageResource(playerPhoto)
+        tvNationality.text = playerNationality
+        tvDateOfBirth.text = playerDateOfBirth
+        tvPosition.text = playerPosition
+
 
     }
 

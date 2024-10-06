@@ -16,7 +16,7 @@ class ListPlayerAdapter(private val listPlayer: ArrayList<Player>) : RecyclerVie
     }
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, description, photo) = listPlayer[position]
+        val (name, description, photo, nationality, position, dateOfBirth) = listPlayer[position]
         holder.imgPhoto.setImageResource(photo)
         holder.tvName.text = name
         holder.tvDescription.text = description
@@ -27,6 +27,9 @@ class ListPlayerAdapter(private val listPlayer: ArrayList<Player>) : RecyclerVie
             intent.putExtra("EXTRA_NAME", name)
             intent.putExtra("EXTRA_DESCRIPTION", description)
             intent.putExtra("EXTRA_PHOTO", photo)
+            intent.putExtra("EXTRA_NATIONALITY", nationality)
+            intent.putExtra("EXTRA_POSITION", position)
+            intent.putExtra("EXTRA_DATEOFBIRTH", dateOfBirth)
             holder.itemView.context.startActivity(intent)
         }
 
